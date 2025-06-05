@@ -155,6 +155,20 @@ As the control mechanisms become more sophisticated, ensuring that they remain i
 Integration with Other Modalities:
 
 Combining facial animation with body motion, audio cues, or environmental interactions could lead to even more immersive experiences.
+Understanding the Architecture
+LivePortrait's architecture comprises several key components:
+
+Appearance Feature Extractor: Captures the visual features of the source image.
+
+Motion Extractor: Derives motion information from the driving video.
+
+Warping Module: Applies the extracted motion to the source image's features.
+
+Stitching and Retargeting Modules: Ensure seamless integration of facial regions and allow for precise control over facial expressions.
+
+These modules work in tandem to produce realistic and controllable portrait animations.
+
+
 
 
 
