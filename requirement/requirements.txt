@@ -10,3 +10,9 @@ MediaPipe: for face landmark detection.
 NumPy: for array handling.
 For MediaPipe-Based Landmark Retargeting (Lightweight Prototype)
 
+
+
+First Order Motion Model (FOMM) — Deep Portrait Animation
+
+Requirements (system & Python)
+You need a Python 3.7+ environment with PyTorch + GPU for real-time performance
