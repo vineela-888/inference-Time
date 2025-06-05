@@ -16,3 +16,19 @@ First Order Motion Model (FOMM) — Deep Portrait Animation
 
 Requirements (system & Python)
 You need a Python 3.7+ environment with PyTorch + GPU for real-time performance
+
+
+If requirements.txt is missing, here's a minimal working version:
+
+imageio
+imageio-ffmpeg
+matplotlib
+numpy
+scikit-image
+scipy
+PyYAML
+tqdm
+torch>=1.7.0
+torchvision
+opencv-python
+
