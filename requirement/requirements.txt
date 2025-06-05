@@ -1,0 +1,12 @@
+pip install mediapipe opencv-python numpy
+
+
+
+🧰 Tools Used
+OpenCV: for reading video and image processing.
+
+MediaPipe: for face landmark detection.
+
+NumPy: for array handling.
+For MediaPipe-Based Landmark Retargeting (Lightweight Prototype)
+
