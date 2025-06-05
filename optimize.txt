@@ -1,0 +1,13 @@
+| Optimization Technique       | Expected Speed Gain | Potential Trade-offs         |                                                                                               |
+| ---------------------------- | ------------------- | ---------------------------- | --------------------------------------------------------------------------------------------- |
+| Enable `torch.compile`       | \~20–30%            | Initial optimization time    |                                                                                               |
+| Convert to ONNX              | 2x–5x               | Requires model export        |                                                                                               |
+| Reduce Input Resolution      | 2x–4x               | Lower output quality         |                                                                                               |
+| Use Mixed Precision (FP16)   | 1.5x–3x             | Requires compatible hardware |                                                                                               |
+| Simplify Retargeting Modules | Variable            | May need model retraining    | ([huggingface.co][1], [github.com][2], [reddit.com][3], [guojianzhu.com][4], [github.com][5]) |
+
+[1]: https://huggingface.co/KwaiVGI/LivePortrait/blob/main/README.md?utm_source=chatgpt.com "README.md · KwaiVGI/LivePortrait at main - Hugging Face"
+[2]: https://github.com/KwaiVGI/LivePortrait?utm_source=chatgpt.com "KwaiVGI/LivePortrait: Bring portraits to life! - GitHub"
+[3]: https://www.reddit.com/r/StableDiffusion/comments/1dvepjx/liveportrait_efficient_portrait_animation_with/?utm_source=chatgpt.com "LivePortrait: Efficient Portrait Animation with Stitching and ... - Reddit"
+[4]: https://guojianzhu.com/assets/pdfs/LivePortrait.pdf?utm_source=chatgpt.com "[PDF] Efficient Portrait Animation with Stitching and Retargeting Control"
+[5]: https://github.com/KwaiVGI/LivePortrait/issues/144?utm_source=chatgpt.com "About the inference speed of onnx · Issue #144 · KwaiVGI/LivePortrait"
